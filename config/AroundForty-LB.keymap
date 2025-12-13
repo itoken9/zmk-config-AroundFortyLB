@@ -136,10 +136,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp ESCAPE      &trans        &trans       &kp LG(UP_ARROW)    &trans                 &trans       &trans          &kp UP           &trans          &kp PAGE_UP
-&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp LG(TAB)  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT       &trans
-&kp LEFT_SHIFT  &trans        &trans       &kp LG(DOWN_ARROW)  &trans                 &trans       &kp LG(T)       &kp LS(LG(TAB))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LCTRL       &trans                                         &trans                 &trans       &trans          &trans           &trans          &trans          &trans           &trans
+&kp ESCAPE      &trans        &trans       &kp LG(UP_ARROW)    &trans                 &trans    &trans          &kp UP          &trans     &kp PAGE_UP
+&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp LEFT_SHIFT  &trans        &trans       &kp LG(DOWN_ARROW)  &trans                 &trans    &trans          &kp END         &trans     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LCTRL       &trans                                         &trans                 &trans    &trans          &trans          &trans     &trans          &trans           &trans
             >;
 
             sensor-bindings =
