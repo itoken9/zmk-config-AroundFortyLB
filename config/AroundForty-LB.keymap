@@ -152,7 +152,7 @@
 &kp ESCAPE      &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_6    &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_8     &kp NUMBER_9
 &kp TAB         &kp BACKSPACE  &kp ENTER     &kp DELETE    &kp NUMBER_5    &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
 &kp LEFT_SHIFT  &trans         &trans        &trans        &trans          &kp LANGUAGE_2  &trans          &kp END         &mkp LCLK        &trans        &mkp RCLK  &kp PAGE_DOWN
-&kp LCTRL       &trans                                     &kp LALT        &trans          &trans          &trans          &trans           &trans        &trans     &kp LS(NUMBER_0)
+&kp LCTRL       &trans                                     &kp LALT        &trans          &trans          &trans          &trans           &trans        &trans     &kp NUMBER_0
             >;
 
             sensor-bindings =
