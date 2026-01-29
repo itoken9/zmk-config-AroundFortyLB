@@ -112,7 +112,7 @@
             bindings = <
 &kp LG(A)       &kp LG(X)     &kp LG(C)    &kp LG(V)  &kp LG(F)    &kp LESS_THAN         &kp GREATER_THAN       &kp CARET         &kp PERCENT        &kp DOLLAR
 &kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1   &mkp MB2     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN       &kp AMPERSAND      &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &trans        &trans       &trans     &mkp MB3     &trans                &kp NON_US_BACKSLASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION    &kp QUESTION  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &trans        &trans       &trans     &mkp MB3     &kp LANG1             &kp NON_US_BACKSLASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION    &kp QUESTION  &kp SINGLE_QUOTE
 &kp LCTRL       &trans                                &kp LALT     &trans                &kp BACKSPACE          &kp ENTER         &trans             &trans             &trans        &kp HASH
             >;
 
@@ -136,10 +136,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp ESCAPE      &trans         &trans     &trans   &trans    &trans          &trans          &kp UP          &trans     &kp PAGE_UP
-&kp TAB         &kp BACKSPACE  &kp ENTER  &kp DEL  &trans    &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans
-&kp LEFT_SHIFT  &trans         &trans     &trans   &trans    &kp LANGUAGE_2  &trans          &kp END         &trans     &trans       &trans  &kp PAGE_DOWN
-&kp LCTRL       &trans                             &trans    &trans          &trans          &trans          &trans     &trans       &trans  &trans
+&kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp UP          &kp NUMBER_8  &kp NUMBER_9
+&kp TAB         &kp BACKSPACE  &kp ENTER     &kp DEL       &trans          &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &trans
+&kp LEFT_SHIFT  &trans         &trans        &trans        &trans          &kp LANGUAGE_2  &trans          &kp END         &trans        &trans        &trans  &kp PAGE_DOWN
+&kp LCTRL       &trans                                     &kp LEFT_ALT    &trans          &trans          &trans          &trans        &trans        &trans  &kp NUMBER_0
             >;
 
             sensor-bindings =
@@ -149,7 +149,7 @@
 
         Win-Common_Layer {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_6    &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_8     &kp NUMBER_9
+&kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_6    &kp NUMBER_7    &kp UP_ARROW    &kp NUMBER_8     &kp NUMBER_9
 &kp TAB         &kp BACKSPACE  &kp ENTER     &kp DELETE    &kp NUMBER_5    &kp HOME        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP
 &kp LEFT_SHIFT  &trans         &trans        &trans        &trans          &kp LANGUAGE_2  &trans          &kp END         &mkp LCLK        &trans        &mkp RCLK  &kp PAGE_DOWN
 &kp LCTRL       &trans                                     &kp LALT        &trans          &trans          &trans          &trans           &trans        &trans     &kp NUMBER_0
