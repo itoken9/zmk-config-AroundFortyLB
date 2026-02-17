@@ -110,10 +110,10 @@
 
         Mac-Function_Layer {
             bindings = <
-&kp EXCL        &kp AT        &kp HASH     &kp DLLR  &kp PERCENT    &kp CARET             &kp AMPERSAND          &kp ASTRK         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1  &mkp MB2       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN       &kp AMPERSAND         &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &trans        &trans       &trans    &mkp MB3       &kp F5                &kp F10                &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp EXCLAMATION        &kp QUESTION  &kp SINGLE_QUOTE
-&kp LCTRL       &trans                               &kp LALT       &trans                &kp BACKSPACE          &kp ENTER         &trans                &trans                 &trans        &kp HASH
+&kp EXCL        &kp AT        &kp HASH     &kp DLLR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTRK         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1  &mkp MB2       &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &trans        &trans       &trans    &mkp MB3       &kp F5     &kp F10        &kp LS(MINUS)     &kp LS(EQUAL)         &kp LS(LEFT_BRACKET)   &kp LS(RIGHT_BRACKET)  &kp SINGLE_QUOTE
+&kp LCTRL       &trans                               &kp LALT       &trans     &kp BACKSPACE  &kp ENTER         &trans                &trans                 &trans                 &kp HASH
             >;
 
             sensor-bindings =
@@ -137,8 +137,8 @@
         Mac-Common_Layer {
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2   &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7    &kp UP          &kp NUMBER_8   &kp NUMBER_9
-&kp TAB         &kp BACKSPACE  &kp ENTER     &kp DEL       &trans          &kp HOME      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp PAGE_UP
-&kp LEFT_SHIFT  &trans         &trans        &trans        &trans          &trans        &trans          &kp END         &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp PAGE_DOWN
+&kp TAB         &kp BACKSPACE  &kp ENTER     &kp DEL       &trans          &kp HOME      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &trans         &trans        &trans        &trans          &trans        &trans          &kp END         &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp LS(SINGLE_QUOTE)
 &kp LCTRL       &trans                                     &kp LEFT_ALT    &trans        &trans          &trans          &trans         &trans            &trans        &kp NUMBER_0
             >;
 
